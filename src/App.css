@@ -8,3 +8,24 @@
   background-color:#009AD4;
   padding-top: 50px;
 }
+.body{
+  display: flex;
+  flex-direction: row;
+}
+.gLogo{
+  flex: 2;
+  margin: 100px 250px 100px 250px;
+}
+
+@media only screen and (max-width:450px){
+  .body{
+    display: flex;
+    flex-direction: column;
+  }
+  .gLogo{
+    flex: 0;
+    margin: 100px 250px 100px 250px;
+    display: block;
+  }
+  
+}

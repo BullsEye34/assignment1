@@ -9,6 +9,13 @@ function App() {
       <div className="header">
         <h1 style={{fontFamily:'montserrat', color: 'white'}}>P Vamshi Prasad</h1>
       </div>
+      <div className="body">
+        <img src={g} className="gLogo" alt="" srcset=""/>
+        <img src={m} className="gLogo" alt="" srcset=""/>
+      </div>
+      <div className="competitors">
+        <h1 style={{fontFamily:'montserrat', color: 'black'}}>They Both Are Competitors</h1>
+      </div>
     </div>
   );
 }

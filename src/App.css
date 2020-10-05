@@ -1,31 +1,32 @@
 .App {
   text-align: center;
 }
-
 .header{
   height: 150px;
   width: 100vw;
   background-color:#009AD4;
   padding-top: 50px;
 }
-.body{
-  display: flex;
-  flex-direction: row;
-}
+
 .gLogo{
-  flex: 2;
-  margin: 100px 250px 100px 250px;
+  flex: 0;
+  margin: 100px;
 }
 
-@media only screen and (max-width:450px){
+@media only screen and (min-width:450px){
+  .header{
+    height: 150px;
+    width: 100vw;
+    background-color:#009AD4;
+    padding-top: 50px;
+  }
   .body{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
   .gLogo{
-    flex: 0;
+    flex: 2;
     margin: 100px 250px 100px 250px;
-    display: block;
   }
   
 }
